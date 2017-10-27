@@ -14,6 +14,7 @@ public class AnnotationBeanScopeDemoApp {
         Coach theCoach = context.getBean("tennisCoach", Coach.class);
         
         Coach alphaCoach = context.getBean("tennisCoach", Coach.class);
+        
     }
 
 }
